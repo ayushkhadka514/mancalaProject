@@ -1,0 +1,6 @@
+Calvin Schaller - casc1204@colorado.edu
+Ayush Khadka - aykh9094@colorado.edu
+
+When using two random players, the first move advantage is around 58% according to our simulations. That is, the player that moves first wins the game around 58% of the time (although, this does vary depending on seed).
+The amount of games won was 56 for player 1, and 40 for player 2, while 4 ended in a tie. 
+The average amount of turns taken by player 1 was 20.31, and the average amount of turns taken by player 2 was 19.79.
