@@ -7,4 +7,4 @@ When using two random players, the first move advantage is around 58% according 
 The amount of games won was 56 for player 1, and 40 for player 2, while 4 ended in a tie. 
 The average amount of turns taken by player 1 was 20.31, and the average amount of turns taken by player 2 was 19.79.
 
-Moving forward we will need to implement AI using minimax and alpha-beta pruning and hopefully the aver
+Moving forward we will need to implement AI using minimax and alpha-beta pruning and hopefully the average number of moves decreases and we make a more optimal computer.
