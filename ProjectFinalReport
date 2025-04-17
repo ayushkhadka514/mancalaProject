@@ -1,0 +1,37 @@
+Project Final Report - Calvin Schaller and Ayush Khadka
+
+When we used our implementation to play 100 games of random player vs random player, player 1 won 56% of the time, player 2 won 37% of the time, and there was a tie 7% of the time.
+On average, it took 43 total moves to win (22 by player 1, 21 by player 2).
+
+When simulating 100 games of an AI (minimax) player vs random, the AI player won 95% of the time and the random player won 5% of the time, with no ties.
+It takes on average 29 moves to reach the end of the game (14 by the AI, 15 by the random player)
+
+Our AI (minimax) is indeed better than random chance. When we look at the statistics between the percentage of games won, we see that using an AI player, the chances of winning go from
+37% to 95%. Thats a 48% difference, so we can reasonably conclude that the AI player is far better than the random player. This is also evident because when the AI player plays against
+the random player, it wins the overwhelming majority of the time.
+
+When we implemented alpha-beta pruning and ran 100 simulations using the alpha-beta AI vs a random player, the AI won 97% of the time, while the random player won 2% of the time, with 1%
+ending in a tie.
+It takes on average 28 moves to win (14 moves for each player). It also took 33.93 seconds for the simulation to finish, meaning each game took ~0.34 seconds to run. 
+
+The results, while not entirely different from minimax, are marginally better than minimax. Only 2% better, meaning that it won 2 more games, although this also could have been due to 
+chance. The main difference comes in the time it takes to run. When using minimax, running 100 simulations took 141 seconds, while the alpha-beta pruning one only took 33. That is a 
+major difference in simulation time, which also means it is computationally lighter. The actual results themselves are not exactly different due to the fact that they are essentially 
+the same algorithm, alpha-beta just has built in shortcuts to cut down on computation time.
+
+When we used a depth of 10 plies, the AI won 98% of the time, while player 1 won 1% of the time, with 1% ending in a tie. Each game took about 45 seconds to run.
+About 27 moves were required to win (13 from AI player, 14 from random player).
+
+The new utility function and depth allows for the algorithm to search even farther into the future, allowing it to consider more possibilities and thus make more informed choices. While
+the statistics prove that this is a better way to evauate the strength of a match, as the AI won more than the previous AI players, it is a very small increase, especially at the cost
+of a much longer simulation time.
+
+How long does it take for a single game to run to completion?
+What percentage of games does each player (AI or random) win?
+On average, how many moves does it take to win?
+In your writeup, explain how your new utility function improves on the utility
+function described above?
+Explain how increasing the number of plies improve the play for the AI
+player?
+Is this new utility function a better way to evaluate the strength of a
+particular match? Explain how?
